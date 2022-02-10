@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React from "react";
+import Navbar from "./components/Navbar";
+import Instructions from "./components/Instructions"
+import Compressor from "./components/Compressor";
+// import Extract from "./components/Extract"
+// import Tesseract from 'tesseract.js';
+
+
+// Tesseract.recognize(
+//   'https://tesseract.projectnaptha.com/img/eng_bw.png',
+//   'eng',
+//   { logger: m => console.log(m) }
+// ).then(({ data: { text } }) => {
+//   console.log(text);
+// })
+
+
+
 
 function App() {
+ 
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar title="Image - Compressor" />
+      <Instructions />
+      <Compressor/>
+      {/* <Extract/> */}
+    </>
   );
 }
 
