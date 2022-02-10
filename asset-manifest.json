@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Image-Compressor-App/static/css/main.abd64e84.css",
+    "main.js": "/Image-Compressor-App/static/js/main.1039b9ad.js",
+    "static/js/787.1ae79a56.chunk.js": "/Image-Compressor-App/static/js/787.1ae79a56.chunk.js",
+    "index.html": "/Image-Compressor-App/index.html",
+    "main.abd64e84.css.map": "/Image-Compressor-App/static/css/main.abd64e84.css.map",
+    "main.1039b9ad.js.map": "/Image-Compressor-App/static/js/main.1039b9ad.js.map",
+    "787.1ae79a56.chunk.js.map": "/Image-Compressor-App/static/js/787.1ae79a56.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abd64e84.css",
+    "static/js/main.1039b9ad.js"
+  ]
+}
