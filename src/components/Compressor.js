@@ -58,16 +58,16 @@ export default function Compressor() {
       <Row>
         <Col className="mx-auto my-5">
           {originalImageFile ? (
-            <img src={originalImageFile} style={imageStyle}></img>
+            <img src={originalImageFile} style={imageStyle} alt="original "></img>
           ) : (
-            <img src="https://media.istockphoto.com/vectors/image-preview-icon-picture-placeholder-for-website-or-uiux-design-vector-id1222357475?k=20&m=1222357475&s=170667a&w=0&h=YGycIDbBRAWkZaSvdyUFvotdGfnKhkutJhMOZtIoUKY=" alt="original image"/>
+            <img src="https://media.istockphoto.com/vectors/image-preview-icon-picture-placeholder-for-website-or-uiux-design-vector-id1222357475?k=20&m=1222357475&s=170667a&w=0&h=YGycIDbBRAWkZaSvdyUFvotdGfnKhkutJhMOZtIoUKY=" alt="original "/>
           )}
         </Col>
         <Col className="mx-auto my-5 ">
           {compressedImage ? (
-            <img src={compressedImage} style={imageStyle}></img>
+            <img src={compressedImage} style={imageStyle} alt="compressed "></img>
           ) : (
-            <img src="https://media.istockphoto.com/vectors/image-preview-icon-picture-placeholder-for-website-or-uiux-design-vector-id1222357475?k=20&m=1222357475&s=170667a&w=0&h=YGycIDbBRAWkZaSvdyUFvotdGfnKhkutJhMOZtIoUKY=" alt="compressed image"/>
+            <img src="https://media.istockphoto.com/vectors/image-preview-icon-picture-placeholder-for-website-or-uiux-design-vector-id1222357475?k=20&m=1222357475&s=170667a&w=0&h=YGycIDbBRAWkZaSvdyUFvotdGfnKhkutJhMOZtIoUKY=" alt="compressed "/>
           )}
         </Col>
       </Row>
