@@ -36,6 +36,6 @@ jobs:
           npm install
           npm run build
           git config --global user.email "rssaiteja7@gmail.com"
-          git config --global user.name "RSSaiteja"
+          git config --global user.name "RSSaiTeja"
           npm run deploy
           
